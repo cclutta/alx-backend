@@ -7,7 +7,7 @@ Contains the function get_page
 
 import csv
 import math
-from typing import List, Tuple, Dict
+from typing import List, Tuple, Dict, Union
 
 
 def index_range(page: int, page_size: int) -> Tuple[int, int]:
