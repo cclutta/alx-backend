@@ -41,7 +41,8 @@ class Server:
 
     def get_hyper_index(self, index: int = None, page_size: int = 10) -> Dict:
         """
-        arguments: index with a None default value and page_size with default value of 10.
+        arguments: index with a None default value and
+        page_size with default value of 10.
         """
         assert type(index) is int and type(
             page_size) is int and 0 <= index < len(self.indexed_dataset())
