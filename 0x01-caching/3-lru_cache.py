@@ -36,5 +36,6 @@ class LRUCache(BaseCaching):
     def get(self, key):
         """ Get function. """
         if key and key in self.cache_data:
+            self.update(key)
             return self.cache_data.get(key)
         return None
